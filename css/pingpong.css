@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Geo";
+  src: url("../fonts/Geo-Regular.ttf");
+}
+
+
+body {
+	font-family: 'Geo', sans-serif;
+	font-size: 30px;
+	color: red;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width:1200px;
+}
+
+.frame {
+	width: 16px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	background: #E0E0E0;
+	border: solid 1px black;
+}
+
+.scoreboard {
+	z-index:1;
+	width: 170px;
+	padding: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	background: #D8D8D8;
+	border: solid 1px black;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.screen {
+	padding: 4px;
+	background: black;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.name {
+	width: 120px;
+	float: left;
+	text-align: center;
+}
+
+.score {
+	text-align: right;	
+}	
