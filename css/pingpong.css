@@ -8,11 +8,6 @@ body {
 	font-family: 'Geo', sans-serif;
 	font-size: 30px;
 	color: red;
-	-moz-user-select: -moz-none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 .container {
@@ -40,20 +35,12 @@ body {
 	margin-top: -10px;
 	background: #D8D8D8;
 	border: solid 1px black;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	-ms-border-radius: 2px;
-	-o-border-radius: 2px;
 	border-radius: 2px;
 }
 
 .screen {
 	padding: 4px;
 	background: black;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	border-radius: 4px;
 }
 
